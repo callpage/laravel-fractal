@@ -20,9 +20,15 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/callpage/fractal"
+      }
+    ],
     "require": {
         "php" : ">=5.5.0",
-        "league/fractal": "^0.13.0",
+        "league/fractal": "dev-custom",
         "illuminate/support": "^5.1"
     },
     "require-dev": {
